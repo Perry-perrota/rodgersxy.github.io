@@ -1,0 +1,44 @@
+.personal {
+  text-align: center;
+  color: white;
+}
+.current {
+  text-align: center;
+  color: white;
+}
+body {
+  margin: 0;
+  background-image: url(robot.jpg);
+  background-size: cover;
+}
+.list {
+  color: white;
+  width: 100%;
+  background-color: #000033;
+  height: 20px;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+li {
+  float:left;
+}
+a {
+  display:block;
+  font-weight: bold;
+  color: #ffffff;
+  width: 190px;
+  text-align: center;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: fantasy;
+  border-radius: 10px;
+}
+a:hover{
+  background: blue;
+}
